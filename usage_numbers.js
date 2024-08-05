@@ -22,4 +22,9 @@ console.log(updatedResult)
 //3 * / % (Form Left to Right)
 //4 + - (From Left to Right)
 
-//
+//Concatination of Numbers:
+
+let resultLine = 'My total sum is:' +updatedResult
+console.log(resultLine)
+
+//Loose Equality (==) Vs Strict Equality OPerator (===)
