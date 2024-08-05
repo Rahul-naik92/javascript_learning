@@ -28,3 +28,9 @@ let resultLine = 'My total sum is:' +updatedResult
 console.log(resultLine)
 
 //Loose Equality (==) Vs Strict Equality OPerator (===)
+let age=33;
+console.log(age =="22") // Focus only on value but not Type.
+
+console.log(age==="33") //Focus both value and type
+
+//Type Conversion
