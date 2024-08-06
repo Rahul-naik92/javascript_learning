@@ -36,3 +36,8 @@ console.log(dishes.join(' '))
 
 //indexof
 console.log(dishes.indexOf('Chat'))
+
+//concat method
+let newDishes=['Panipuri', 'vegbiryani', 'sweet']
+
+console.log(dishes.concat(newDishes))
