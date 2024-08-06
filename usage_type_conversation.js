@@ -17,3 +17,22 @@ let numberConversion = 45
 let stringConversion = String(numberConversion)
 
 console.log(stringConversion, typeof stringConversion)
+
+//Boolean method true/false
+
+let age =32;
+let booleanValueoFAge=Boolean(age);
+console.log(booleanValueoFAge)
+
+//Arrays - objects Collection of same types.
+
+let dishes=['Biryani', 'Chat', 'Partha']
+console.log(dishes[0])
+
+//methods of array
+//join method
+
+console.log(dishes.join(' '))
+
+//indexof
+console.log(dishes.indexOf('Chat'))
