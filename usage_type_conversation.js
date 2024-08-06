@@ -39,5 +39,9 @@ console.log(dishes.indexOf('Chat'))
 
 //concat method
 let newDishes=['Panipuri', 'vegbiryani', 'sweet']
+let updatedDishes=dishes.concat(newDishes);
 
 console.log(dishes.concat(newDishes))
+
+//length
+console.log(updatedDishes.length)
