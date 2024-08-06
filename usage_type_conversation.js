@@ -45,3 +45,9 @@ console.log(dishes.concat(newDishes))
 
 //length
 console.log(updatedDishes.length)
+//push method
+
+console.log(updatedDishes.push('Biryani Veg')) //return new lenght
+
+//pop method it will remove from back.
+console.log(dishes.pop())
