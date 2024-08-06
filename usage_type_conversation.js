@@ -51,3 +51,16 @@ console.log(updatedDishes.push('Biryani Veg')) //return new lenght
 
 //pop method it will remove from back.
 console.log(dishes.pop())
+
+// Boolean Values and Comparision Operators
+
+let booleanType = true;
+let stringBoolType="true";
+
+console.log(typeof booleanType, typeof stringBoolType)
+
+let email="Rahul@gmail.com"
+let booleanValue=email.includes("@")
+
+console.log(booleanValue)
+
