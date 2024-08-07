@@ -19,9 +19,15 @@ let dished=['Biryani', 'Bhallay', 'pani-puri', 'Chapati'];
 
 for(let i=0; i<dished.length; i++){
     console.log(dished[i])
+  
 }
-
+  console.log('--------------------------------')
 //iteration and value of i
 //0,1,2,3
 
 //while loop
+let j=1;
+while (j<dished.length){
+    console.log(dished[j]);
+    j++;
+}
