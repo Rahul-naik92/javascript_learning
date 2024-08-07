@@ -40,3 +40,19 @@ do{
     console.log("At least Run Time", k)
     j++;
 }while(j<=1)
+
+
+    //usage if, else, else if statements
+
+let budget=700;
+
+if(budget>600){
+    console.log("Will do dinner in hotel");
+
+} else if(budget >4500){
+    console.log('Will do dinner at 3* Star hotel');
+    
+}
+else {
+    console.log("Run if all condidtions are false")
+} 
