@@ -31,3 +31,12 @@ while (j<dished.length){
     console.log(dished[j]);
     j++;
 }
+
+
+//Do while loop
+
+let k=1;
+do{
+    console.log("At least Run Time", k)
+    j++;
+}while(j<=1)
