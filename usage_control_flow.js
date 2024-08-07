@@ -59,10 +59,31 @@ else {
 
 //nested if - bad condition
 
-let num =23
-if(num>22){
-    console.log("Run if 1st condition true");
-    if(num>21){
-        console.log("Run if Both condition true");
-    }
+// let num =23
+// if(num>22){
+//     console.log("Run if 1st condition true");
+//     if(num>21){
+//         console.log("Run if Both condition true");
+//     }
+// }
+
+//Break and Continue Statements
+
+//Continue Statement - used to skip some values of loop
+
+
+for(let i=1; i<=10; i++){
+    if(i==2){
+        continue;
+        
+    }console.log('value of i is ', i)
+}
+
+//break - - it will come out or terminate.
+
+for(let i=1; i<=10; i++){
+    if(i==5){
+        console.log("our desired value is", i)
+        break;
+    }console.log("i value is", i)
 }
