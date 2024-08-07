@@ -51,8 +51,18 @@ if(budget>600){
 
 } else if(budget >4500){
     console.log('Will do dinner at 3* Star hotel');
-    
+
 }
 else {
     console.log("Run if all condidtions are false")
 } 
+
+//nested if - bad condition
+
+let num =23
+if(num>22){
+    console.log("Run if 1st condition true");
+    if(num>21){
+        console.log("Run if Both condition true");
+    }
+}
