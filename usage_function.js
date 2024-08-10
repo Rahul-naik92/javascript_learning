@@ -32,3 +32,16 @@ let invitation=function(name) {
 }
 
 invitation('Rahul')
+
+//Returning values (How to return value from the function)
+
+let ageCalulcation=function(birthYear, currentYear){
+    let age=currentYear-birthYear;
+
+    console.log(`current age is ${age}`)
+
+    return age;
+}
+ageCalulcation(1991, 2024)
+
+console.log(ageCalulcation(1991,2024))
