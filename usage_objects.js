@@ -80,4 +80,9 @@ for(let i=0; i<blockList.length; i++){
     console.log(`user ${blockList[i].userName} has been blocked due to ${blockList[i].reason}`)
 }
 
-//
+//Math Object build in object in javascript
+
+console.log(Math)
+
+let number=7.9
+console.log(Math.round(number))
