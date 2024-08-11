@@ -25,3 +25,10 @@ setTimeout(greeting, 1000, "Rahul","Raghu")
 // test =10
 // console.log(test)
 // var test
+
+//function declration:
+
+// test()
+// let test=function(){   ReferenceError: Cannot access 'test' before initialization 
+//     console.log("Hello Programmer")
+// }
