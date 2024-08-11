@@ -126,3 +126,5 @@ let book = mainPlane.book
 book.call(childPain, 689, "Zack")
 //apply method:
 Boolean.apply(childPain, [785, "Naik"])
+
+console.log(childPain.bookings)
