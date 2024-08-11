@@ -75,3 +75,15 @@ let tranformer = function(str, fun){
 }
 
 console.log(tranformer("Hello", upperCase))
+
+let commpliment= function(mes){
+    return function(name){
+        console.log(`${mes} ${name}`)
+        return true
+    }
+}
+//console.log(commpliment("Hey")("Hey"))
+//2nd Method
+let commplimented=commpliment("Hey you are amazing code,")
+commplimented("Rahul")
+commplimented("Raghu")
