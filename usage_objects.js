@@ -98,4 +98,31 @@ console.log(Math.round(random*100))
 //call and apply method
 //We can manually set the value of this keywork using call and apply
 
+let mainPlane={
+    airline:"Fly India",
+    iataCode:"FI",
+    bookings:[],
+    book: function(flightNum, name){
+        console.log(`${name} Booked Flight on ${this.airline} with code ${this.iataCode}`)
+this.bookings.push({flightName: `${this.airline}`, code:`${this.iataCode}`})
+    }
+}
 
+console.log(mainPlane.book(44,"Rahul"))
+console.log(mainPlane.book(44,"Rahul"))
+console.log(mainPlane.book(44,"Rahul"))
+console.log(mainPlane.book(44,"Rahul"))
+console.log(mainPlane.bookings)
+
+//New airline launched of same group
+
+let childPain={
+        airline:"Child India",
+    iataCode:"CP",
+    bookings:[],
+}
+let book = mainPlane.book
+
+book.call(childPain, 689, "Zack")
+//apply method:
+Boolean.apply(childPain, [785, "Naik"])
