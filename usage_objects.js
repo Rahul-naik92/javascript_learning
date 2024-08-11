@@ -60,3 +60,24 @@ getSummary:function(){
 
 console.log(personDetails.getSummary())
 
+//forEach method of array.
+//Its another type of loop which we used to travers
+//over the array.
+
+//forEach method
+ let dishes=['Biryani', 'channy', 'Karahai', 'Bhallay']
+
+ dishes.forEach(function(element){
+    console.log(element)
+ })
+
+
+ // Objects inside array.
+ let blockList=[{userName:"Rahul", reason: "Abusive Content"},{userName:"Rahul", reason: "Abusive Information"} ]
+console.log(blockList)
+
+for(let i=0; i<blockList.length; i++){
+    console.log(`user ${blockList[i].userName} has been blocked due to ${blockList[i].reason}`)
+}
+
+//
