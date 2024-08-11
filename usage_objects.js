@@ -128,3 +128,17 @@ book.call(childPain, 689, "Zack")
 Boolean.apply(childPain, [785, "Naik"])
 
 console.log(childPain.bookings)
+
+//blind method:
+
+function greet(){
+    console.log(`Welcome ${this.firstName} ${this.lastName} on coder dost`)
+
+}
+let user={
+    firstName:"Rahu",
+    lastName:"Ketu"
+}
+
+let greets = greet.bind(user);
+greets()
