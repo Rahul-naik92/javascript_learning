@@ -16,9 +16,12 @@ setTimeout(greeting, 1000, "Rahul","Raghu")
 //setInterval
 //Syntax - setInterval(func|code, delay, arg1, arg2....)
 
-setInterval(greeting, 1000, "Rahul Naik")
+//setInterval(greeting, 1000, "Rahul Naik")
 
 
 //Hoisting
 //Variable "Declaration" are hosted towards "top" of their scope.
 
+// test =10
+// console.log(test)
+// var test
