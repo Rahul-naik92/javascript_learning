@@ -84,5 +84,11 @@ for(let i=0; i<blockList.length; i++){
 
 console.log(Math)
 
-let number=7.9
-console.log(Math.round(number))
+let number=7.3
+console.log(Math.round(number))//round to neared integer
+console.log(Math.floor(number))//round to down
+
+console.log(Math.ceil(number))
+
+let random=Math.random()
+console.log(Math.round(random*100))
