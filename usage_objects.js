@@ -92,3 +92,10 @@ console.log(Math.ceil(number))
 
 let random=Math.random()
 console.log(Math.round(random*100))
+
+//Function
+
+//call and apply method
+//We can manually set the value of this keywork using call and apply
+
+
