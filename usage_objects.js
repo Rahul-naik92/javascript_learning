@@ -47,4 +47,16 @@ console.log(person.ageCalcualte(1991))
 // In each method we have an access of special keyword called "this"
 //"this" keyword represent the object. "calling" the "method" in which "this" is "present"
 
+let personDetails={
+firstName:"Rahul Patil",
+city:"Dubai",
+Education:"Software Engineer",
+birthyear:1991,
+getSummary:function(){
+    return `${this.firstName} lives in ${this.city} ${this.Education} ${this.birthyear}`
+}
+
+}
+
+console.log(personDetails.getSummary())
 
