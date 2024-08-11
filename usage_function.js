@@ -45,3 +45,17 @@ let ageCalulcation=function(birthYear, currentYear){
 ageCalulcation(1991, 2024)
 
 console.log(ageCalulcation(1991,2024))
+
+//arrow function
+//Special form of function expression
+//It allows us to write function more fast because 
+//No need to use function keyword
+//No need to use paranthesis() in case of single paramter.
+//No need to use curely {} if single line code in function
+//No need to use return statement if single line code in function
+
+
+//Arrow FUnction
+
+let newInviation= name=>`welcom ${name} to this events `
+console.log(newInviation("Rahul"))
