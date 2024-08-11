@@ -59,3 +59,19 @@ console.log(ageCalulcation(1991,2024))
 
 let newInviation= name=>`welcom ${name} to this events `
 console.log(newInviation("Rahul"))
+
+//Passing function as an Argument (hight order function example)
+
+let upperCase = function(str){
+    return str.toUpperCase(str);
+}
+
+let lowerCase = function(str){
+    return str.toLowerCase(str);
+}
+
+let tranformer = function(str, fun){
+    return fun(str)
+}
+
+console.log(tranformer("Hello", upperCase))
