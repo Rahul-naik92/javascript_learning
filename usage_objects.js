@@ -43,5 +43,8 @@ let person={
 
 console.log(person.ageCalcualte(1991))
 
-//this 
+//this keyword.
+// In each method we have an access of special keyword called "this"
+//"this" keyword represent the object. "calling" the "method" in which "this" is "present"
+
 
